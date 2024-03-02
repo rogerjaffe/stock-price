@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.mrjaffesclass.stockmarket","l":"StockGetHistory"},{"p":"com.mrjaffesclass.stockmarket","l":"StockPrice"}];updateSearchResults();
