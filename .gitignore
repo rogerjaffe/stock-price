@@ -1,0 +1,8 @@
+*.ctxt
+*.class
+**/node_modules
+.idea
+Tester.*
+**/.DS_Store
+**/build
+**/dist

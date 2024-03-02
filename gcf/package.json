@@ -1,0 +1,19 @@
+{
+  "name": "stock-price-history",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "functions-framework --target=getStockHistory",
+    "deploy": "gcloud functions deploy stock-market-api --gen2 --runtime=nodejs18 --region=us-west1 --source=. --entry-point=getStockHistory --trigger-http --project=stock-market-api-415819",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0",
+    "node-fetch": "^3.3.2"
+  }
+}
