@@ -8,7 +8,10 @@
 
 ##### Google Cloud Function
 
-URL is `https://us-west1-stock-market-api-415819.cloudfunctions.net/stock-market-api?ticker=TICKER&fcn=TIME_SERIES_DAILY&apikey=API_KEY`
+URL is `https://us-west1-stock-market-api-415819.cloudfunctions.net/stock-market-api?ticker=<TICKER>&fcn=TIME_SERIES_DAILY&apikey=<API_KEY>`
+
+* Replace <TICKER> with the ticker symbol of the stock price you are retrieving
+* Replace <API_KEY> with the API Key you get from AlphaVantage
 
 ##### Google Cloud Bucket
 
